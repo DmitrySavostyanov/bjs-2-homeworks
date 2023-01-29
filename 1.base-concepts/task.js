@@ -33,11 +33,7 @@ calculateTotalMortgage(percent, contribution, amount, countMonths) //вызов 
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   // Контроль корректности введенных данных. 
-  if (isNaN(percent)) {
-    return false;
-  } else if (isNaN(contribution)) {
-    return false;
-  } else if (isNaN(amount)) {
+  if (isNaN(percent) || isNaN (contribution) || isNaN (amount)) {
     return false;
   }
   let per = percent / 100 / 12; //процентная ставка по условию
