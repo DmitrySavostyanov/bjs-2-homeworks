@@ -32,7 +32,6 @@ let amount = Number(prompt("Введите общую стоимость ипо�
 let countMonths = Number(prompt("Введите срок ипотеки (кол-во месяцев)"));
 calculateTotalMortgage(percent, contribution, amount, countMonths) //вызов функции
 */
-
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   // Контроль корректности введенных данных. 
   if (isNaN(percent) || isNaN (contribution) || isNaN (amount)) {
