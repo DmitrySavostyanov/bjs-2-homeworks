@@ -25,11 +25,13 @@ function solveEquation(a, b, c) {
 }
 
 //задача №2
+/*
 let percent = Number(prompt("Введите процентную ставку в %"));//процентная ставка
 let contribution = Number(prompt("Введите сумму первого взноса в руб."));//сумма перв. взноса
 let amount = Number(prompt("Введите общую стоимость ипотечного кредита в руб."));// общая стоимость
 let countMonths = Number(prompt("Введите срок ипотеки (кол-во месяцев)"));
 calculateTotalMortgage(percent, contribution, amount, countMonths) //вызов функции
+*/
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   // Контроль корректности введенных данных. 
