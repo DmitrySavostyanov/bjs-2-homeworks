@@ -1,3 +1,6 @@
+https://github.com/DmitrySavostyanov/bjs-2-homeworks/blob/bjs-53/1.base-concepts/index.html
+
+
 # Домашнее задание к лекции 1 «Основные понятия»
 
 ## Задача 1
